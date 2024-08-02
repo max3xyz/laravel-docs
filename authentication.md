@@ -673,7 +673,7 @@ Let's take a look at the `Illuminate\Contracts\Auth\UserProvider` contract:
 
     interface UserProvider
     {
-        public function retrieveById($identifier);
+        public function retrieveById($identifier)x;
         public function retrieveByToken($identifier, $token);
         public function updateRememberToken(Authenticatable $user, $token);
         public function retrieveByCredentials(array $credentials);
