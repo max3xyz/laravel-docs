@@ -93,7 +93,7 @@ Tinker utilizes an "allow" list to determine which Artisan commands are allowed 
     ],
 
 <a name="classes-that-should-not-be-aliased"></a>
-#### Classes That Should Not Be Aliased
+#### Classes That Should Not Be Aliased this is new
 
 Typically, Tinker automatically aliases classes as you interact with them in Tinker. However, you may wish to never alias some classes. You may accomplish this by listing the classes in the `dont_alias` array of your `tinker.php` configuration file:
 
